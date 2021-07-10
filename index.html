@@ -56,9 +56,7 @@ cursor: pointer;
         display: inline-block;
         
     }
-    .name:hover{
-        -webkit-box-reflect: below ;
-    }
+   
     .wrapper{
         position: relative;
         width: 320px;
@@ -107,14 +105,10 @@ transform: rotateY(240deg) translateZ(300px);
 transform: rotateY(300deg) translateZ(300px);
     }
     img{
-        /*filter: grayscale(90%);
-        transition: 1s;*/
+        
         cursor: pointer;
     }
-    img:hover{
-       /* transition: 1s;
-        filter: grayscale(0) ;*/
-    }
+  
     @keyframes animate{
         from{
             transform: rotateY(-360deg);
@@ -123,6 +117,22 @@ transform: rotateY(300deg) translateZ(300px);
             transform: rotateY(0deg);
         }
     }
+        
+    .circle{
+        display: flex;
+        flex-direction: right;
+       
+        display: inline-block;
+position: absolute;
+right: 150px;
+top: 260px;
+    }
+   .circle img{
+            width: 250px;
+            height: 250px;
+            clip-path: circle(45.4% at 50% 50%);
+            left: 170px;
+            }
 </style>
 </head>
 <body>
@@ -156,6 +166,9 @@ transform: rotateY(300deg) translateZ(300px);
             </div> 
         </div>
     </div>
+     <div class="single-img img-seven">
+                <img src="img/rohi.jpeg" alt="" srcset="">
+            </div> 
        <script>
         
         let name=prompt("what is your enter","jyoti");
