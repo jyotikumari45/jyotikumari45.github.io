@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <style>
     body{
 margin: 0px;
@@ -34,7 +37,11 @@ background-image: url('https://wallpapercave.com/wp/wp2714640.jpg');
        
 
     }
-   
+    /*
+    @font-face {
+        font-family: 'Bungee', cursive;;
+        src: url();
+    }*/
     .name{
         padding-right: 100px;
         margin-left: 290px;
@@ -53,7 +60,10 @@ cursor: pointer;
         display: inline-block;
         
     }
-   
+      /*  
+    .name:hover{
+        -webkit-box-reflect: right;
+    }*/
     .wrapper{
         position: relative;
         width: 320px;
@@ -73,8 +83,8 @@ cursor: pointer;
     }
     .single-img{
         position: absolute;
-        width: 230px;
-        height: 280px;
+        width: 200px;
+        height: 320px;
         top: 10px;
         left: 10px;
 
@@ -83,31 +93,46 @@ cursor: pointer;
     {
         width: 230px;
         height: 280px;
+        width: 200px;
+        height: 320px;
         border: 5px solid white; 
     }
     .single-img.img-seven{
 transform: rotateY(0deg) translateZ(300px);
     }
     .single-img.img-two{
-transform: rotateY(60deg) translateZ(300px);
+transform: rotateY(45deg) translateZ(300px);
     }
     .single-img.img-three{
-transform: rotateY(120deg) translateZ(300px);
+transform: rotateY(90deg) translateZ(300px);
     }
     .single-img.img-four{
-transform: rotateY(180deg) translateZ(300px);
+transform: rotateY(135deg) translateZ(300px);
     }
     .single-img.img-five{
-transform: rotateY(240deg) translateZ(300px);
+transform: rotateY(180deg) translateZ(300px);
     }
     .single-img.img-six{
-transform: rotateY(300deg) translateZ(300px);
+transform: rotateY(225deg) translateZ(300px);
+    }
+    .single-img.img-eight{
+transform: rotateY(270deg) translateZ(300px);
+    }
+    .single-img.img-nine{
+transform: rotateY(315deg) translateZ(300px);
+    }
+    .single-img.img-ten{
+transform: rotateY(360deg) translateZ(300px);
     }
     img{
-    
+        /*filter: grayscale(90%);
+        transition: 1s;*/
         cursor: pointer;
     }
-    
+    img:hover{
+       /* transition: 1s;
+        filter: grayscale(0) ;*/
+    }
     @keyframes animate{
         from{
             transform: rotateY(-360deg);
@@ -122,15 +147,62 @@ transform: rotateY(300deg) translateZ(300px);
        
         display: inline-block;
 position: absolute;
-right: 50px;
-top: 260px;
+right: 150px;
+top: 200px;
     }
    .circle img{
-            width: 250px;
-            height: 250px;
+            width: 300px;
+            height: 300px;
             clip-path: circle(45.4% at 50% 50%);
             left: 170px;
             }
+            .video video{
+                left: 170px;
+                width: 150px;
+            height: 150px;
+           /* clip-path: circle(50% at 50% 50%);*/
+            
+            }
+            .video{
+                
+        display: flex;
+        flex-direction: right;
+       
+        display: inline-block;
+position: absolute;
+right: 50px;
+top: 800px;
+    
+            }
+            #btn{
+          padding:10px 12px;
+          background-color: aqua;
+          color: white;
+          border: 3px solid black;
+          border-radius: 5px;
+          font-weight: bold;
+          cursor: pointer;
+      }
+      p{
+        font-size: xx-large;
+    margin: 351px;
+    margin-top: 607px;
+    color: rgb(147, 18, 233);
+
+      }
+      p b{
+          color: rgb(0, 238, 255);
+          font-family: cursive;
+          font-family: 'Dancing Script', cursive;
+          font-weight: bolder;
+      }
+  
+      p i{
+       color: crimson;
+    font-family: cursive;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+      }
 </style>
 </head>
 <body>
@@ -138,44 +210,53 @@ top: 260px;
         HAPPY BIRTHDAY
     </div>
     <div class="name">
-        jyoit
+       ROHIT SHARMA
      </div>
     <div class="wrapper">
         <div class="img-area">
             
             <div class="single-img img-two">
-                <img src="img/rohit.jpeg" alt="" srcset="">
+                <img src="img/jyoti.jpeg" alt="" srcset="">
                 
             </div>
             <div class="single-img img-three">
-                <img src="img/rohit.jpeg" alt="" srcset="">
+                <img src="img/jyoti2.jpeg" alt="" srcset="">
             </div>
             <div class="single-img img-four">
-                <img src="img/rohit.jpeg" alt="" srcset="">
+                <img src="img/jyoti3.jpeg" alt="" srcset="">
             </div>
             <div class="single-img img-five">
-                <img src="img/rohit.jpeg" alt="" srcset="">
+                <img src="img/jyoti1.jpeg" alt="" srcset="">
             </div>
             <div class="single-img img-six">
-                <img src="img/rohit.jpeg" alt="" srcset="">
+                <img src="img/jyoti5.jpeg" alt="" srcset="">
             </div>
-            <div class="single-img img-seven">
-                <img src="img/rohit.jpeg" alt="" srcset="">
+            <div class="single-img img-eight">
+                <img src="img/jyoti5.jpeg" alt="" srcset="">
+            </div> 
+            <div class="single-img img-nine">
+                <img src="img/jyoti5.jpeg" alt="" srcset="">
+            </div> 
+            <div class="single-img img-ten">
+                <img src="img/jyoti5.jpeg" alt="" srcset="">
             </div> 
         </div>
     </div>
     
     <div class="circle">
-        <img src="img/rohit.jpeg" alt="">
+        <img src="./jyoti.jpeg" alt="">
     </div>
     <div class="video">
-    <video src="./voice.mp4" width="400px"></video>
+    <video src="./voice.mp4" width="150px" poster="https://cdn.cbeditz.com/cbeditz/preview/happy-birthday-picsart-editing-background-6-116109521350vfofjravc.jpg" controls></video>
         
     </div>
+    <p><i>"Every step of the way you were there for me. Through thick and thin I’ll always be there for you"</i>.<b>"Happy birthday ROHIT KUMAR VISHWAKARMA JI (BANDAR)".</b>I have never imagined that i will have such a wonderfull friend during college life but having you as a friend is reallly a blessing for me.And i wish that we will always be a good friend . </p>
+  
     <script>
         
-        let name=prompt("what is your name","jyoti");
+        let name=prompt("what is your enter","jyoti");
 console.log(name);
+
     </script>
 </body>
 </html>
